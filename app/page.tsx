@@ -152,7 +152,7 @@ export default function Home() {
                 key={project.number}
                 target="_blank"
                 rel="noreferrer"
-                aria-label={`${project.title} — opens on GitHub`}
+                aria-label={`${project.title} — opens in a new tab`}
               >
                 {content}
               </a>
