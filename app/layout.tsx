@@ -3,24 +3,24 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://xinxing2027.github.io"),
-  title: "Xinxing — Independent Builder & Creative Technologist",
+  title: "Xinxing Li — Independent Builder & Creative Technologist",
   description:
-    "The personal portfolio of Xinxing: selected work, digital experiments, and ideas in progress.",
+    "The personal portfolio of Xinxing Li: selected work, digital experiments, and ideas in progress.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Xinxing — Independent Builder & Creative Technologist",
+    title: "Xinxing Li — Independent Builder & Creative Technologist",
     description:
       "Selected work, digital experiments, and ideas in progress.",
     url: "/",
-    siteName: "Xinxing",
+    siteName: "Xinxing Li",
     type: "website",
-    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "Xinxing portfolio" }],
+    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "Xinxing Li portfolio" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Xinxing — Independent Builder & Creative Technologist",
+    title: "Xinxing Li — Independent Builder & Creative Technologist",
     description: "Selected work, digital experiments, and ideas in progress.",
     images: ["/og.jpg"],
   },

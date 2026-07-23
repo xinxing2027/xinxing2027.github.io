@@ -662,7 +662,7 @@ a.project:hover {
 }
 
 .gallery-intro {
-  align-self: end;
+  align-self: start;
 }
 
 .gallery-intro h3 {

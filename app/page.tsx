@@ -76,9 +76,9 @@ export default function Home() {
   return (
     <div className="site-shell">
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="Xinxing — home">
+        <a className="brand" href="#top" aria-label="Xinxing Li — home">
           <span className="brand-pixel" aria-hidden="true" />
-          XINXING
+          XINXING LI
         </a>
 
         <nav className={menuOpen ? "nav nav-open" : "nav"} aria-label="Primary">
@@ -111,7 +111,7 @@ export default function Home() {
             <span className="crosshair" aria-hidden="true">＋</span>
             <div>
               <p className="eyebrow">Independent practice / Digital experiments</p>
-              <h1 id="hero-title">Xinxing</h1>
+              <h1 id="hero-title">Xinxing Li</h1>
               <p className="role">
                 Independent Builder
                 <br />
@@ -300,7 +300,7 @@ export default function Home() {
 
           <div className="about-story">
             <p>
-              I&apos;m Xinxing, an optimistic and adventurous mathematics
+              I&apos;m Xinxing Li, an optimistic and adventurous mathematics
               student who enjoys discovering unfamiliar places, trying new
               things, swimming, and documenting everyday life through social
               media.
@@ -355,7 +355,7 @@ export default function Home() {
               <figure className="photo-slot photo-04">
                 <img
                   src="/photos/swimming.jpg"
-                  alt="Xinxing competing in a swimming race"
+                  alt="Xinxing Li competing in a swimming race"
                   loading="lazy"
                 />
                 <figcaption><span>04</span><strong>In motion</strong></figcaption>
@@ -363,7 +363,7 @@ export default function Home() {
               <figure className="photo-slot photo-03">
                 <img
                   src="/photos/spring.jpg"
-                  alt="Xinxing smiling beside spring blossoms"
+                  alt="Xinxing Li smiling beside spring blossoms"
                   loading="lazy"
                 />
                 <figcaption><span>03</span><strong>Spring</strong></figcaption>
@@ -371,7 +371,7 @@ export default function Home() {
               <figure className="photo-slot photo-02">
                 <img
                   src="/photos/adventure.jpg?v=2"
-                  alt="Xinxing rappelling beside a waterfall"
+                  alt="Xinxing Li rappelling beside a waterfall"
                   loading="lazy"
                 />
                 <figcaption><span>02</span><strong>Into the wild</strong></figcaption>
@@ -387,7 +387,7 @@ export default function Home() {
               <figure className="photo-slot photo-01">
                 <img
                   src="/photos/world-cup.jpg"
-                  alt="Xinxing at a football event"
+                  alt="Xinxing Li at a football event"
                   loading="lazy"
                 />
                 <figcaption><span>01</span><strong>Game day</strong></figcaption>
@@ -395,7 +395,7 @@ export default function Home() {
               <figure className="photo-slot photo-05">
                 <img
                   src="/photos/friends.jpg?v=2"
-                  alt="Xinxing enjoying the sunshine beside purple flowers"
+                  alt="Xinxing Li enjoying the sunshine beside purple flowers"
                   loading="lazy"
                 />
                 <figcaption><span>05</span><strong>Little sunshine</strong></figcaption>
@@ -411,7 +411,7 @@ export default function Home() {
               <figure className="photo-slot photo-06">
                 <img
                   src="/photos/everyday-moment.jpg"
-                  alt="Xinxing visiting a mountain landscape"
+                  alt="Xinxing Li visiting a mountain landscape"
                   loading="lazy"
                 />
                 <figcaption><span>06</span><strong>Out there</strong></figcaption>
@@ -419,7 +419,7 @@ export default function Home() {
               <figure className="photo-slot photo-08">
                 <img
                   src="/photos/fearless.jpg"
-                  alt="Xinxing standing beside the Fearless Girl statue"
+                  alt="Xinxing Li standing beside the Fearless Girl statue"
                   loading="lazy"
                 />
                 <figcaption><span>08</span><strong>Fearless</strong></figcaption>
@@ -483,7 +483,7 @@ export default function Home() {
       </main>
 
       <footer>
-        <span>© {new Date().getFullYear()} Xinxing</span>
+        <span>© {new Date().getFullYear()} Xinxing Li</span>
         <span>Built with intention</span>
         <a href="#top">Back to top ↑</a>
       </footer>
