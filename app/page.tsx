@@ -400,6 +400,38 @@ export default function Home() {
                 />
                 <figcaption><span>06</span><strong>Out there</strong></figcaption>
               </figure>
+              <figure className="photo-slot photo-slot-wide">
+                <img
+                  src="/photos/midtown-night.jpg"
+                  alt="The Manhattan skyline illuminated at night"
+                  loading="lazy"
+                />
+                <figcaption><span>07</span><strong>City lights</strong></figcaption>
+              </figure>
+              <figure className="photo-slot photo-slot-portrait">
+                <img
+                  src="/photos/fearless.jpg"
+                  alt="Xinxing standing beside the Fearless Girl statue"
+                  loading="lazy"
+                />
+                <figcaption><span>08</span><strong>Fearless</strong></figcaption>
+              </figure>
+              <figure className="photo-slot photo-slot-wide">
+                <img
+                  src="/photos/sunset-skyline.jpg"
+                  alt="New York skyline beneath a colorful sunset"
+                  loading="lazy"
+                />
+                <figcaption><span>09</span><strong>Afterglow</strong></figcaption>
+              </figure>
+              <figure className="photo-slot photo-slot-wide">
+                <img
+                  src="/photos/river-night.jpg"
+                  alt="New York bridges and skyline viewed across the river at night"
+                  loading="lazy"
+                />
+                <figcaption><span>10</span><strong>Across the river</strong></figcaption>
+              </figure>
             </div>
           </div>
 
