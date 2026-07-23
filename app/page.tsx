@@ -18,6 +18,7 @@ const work = [
     meta: "Key Member · Suzhou · 07/2024—08/2024",
     description:
       "Analyzed and visualized complex functions with MATLAB, LaTeX, and Mathematica, comparing conformal mapping and color-coding techniques.",
+    href: "/complex-functions-poster.jpg",
     status: "Research project",
   },
   {
