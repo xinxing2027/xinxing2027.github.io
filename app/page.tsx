@@ -14,12 +14,12 @@ const work = [
   },
   {
     number: "02",
-    title: "Complex Functions",
-    meta: "Key Member · Suzhou · 07/2024—08/2024",
+    title: "AI Optical Module Cycle",
+    meta: "UBS Competition · AI Analysis · 04/2026",
     description:
-      "Analyzed and visualized complex functions with MATLAB, LaTeX, and Mathematica, comparing conformal mapping and color-coding techniques.",
-    href: "/complex-functions-poster.jpg",
-    status: "Research project",
+      "Used Python and AI agents to screen industry news and financial data, structure company signals, and build a peer-valuation framework using PE, PEG, EV/EBITDA, and 2026E scenarios.",
+    href: "/ubs-ai-optical-module-competition-2026.pptx",
+    status: "Competition pitch",
   },
   {
     number: "03",
@@ -32,12 +32,12 @@ const work = [
   },
   {
     number: "04",
-    title: "AI Optical Module Cycle",
-    meta: "UBS Competition · AI Analysis · 04/2026",
+    title: "Complex Functions",
+    meta: "Key Member · Suzhou · 07/2024—08/2024",
     description:
-      "Used Python and AI agents to screen industry news and financial data, structure company signals, and build a peer-valuation framework using PE, PEG, EV/EBITDA, and 2026E scenarios.",
-    href: "/ubs-ai-optical-module-competition-2026.pptx",
-    status: "Competition pitch",
+      "Analyzed and visualized complex functions with MATLAB, LaTeX, and Mathematica, comparing conformal mapping and color-coding techniques.",
+    href: "/complex-functions-poster.jpg",
+    status: "Research project",
   },
   {
     number: "05",
