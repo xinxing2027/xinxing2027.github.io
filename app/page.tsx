@@ -5,28 +5,29 @@ import { useEffect, useState } from "react";
 const work = [
   {
     number: "01",
-    title: "Personal Portfolio",
-    meta: "Design · Development · 2026",
+    title: "Statistical Arbitrage",
+    meta: "Second Author · Online · 05/2024—09/2024",
     description:
-      "A living home for selected work, experiments, and notes from the build process.",
-    href: "https://github.com/xinxing2027/xinxing2027.github.io",
-    status: "Live build",
+      "Developed an alpha strategy using Markov chains and the Fama–French three-factor model, then tested a market-neutral long–short portfolio on 2015–2023 data.",
+    href: "https://www.researchgate.net/publication/396809736_How_Markov_Chain_and_Fama-French_Be_Used_in_Practical_Financial_Alpha_Strategy",
+    status: "Published paper",
   },
   {
     number: "02",
-    title: "Research Log",
-    meta: "Ideas · Notes · Soon",
+    title: "Complex Functions",
+    meta: "Key Member · Suzhou · 07/2024—08/2024",
     description:
-      "Short field notes on tools, systems, and the questions worth following.",
-    status: "In progress",
+      "Analyzed and visualized complex functions with MATLAB, LaTeX, and Mathematica, comparing conformal mapping and color-coding techniques.",
+    status: "Research project",
   },
   {
     number: "03",
-    title: "Next Project",
-    meta: "A space reserved",
+    title: "Personal Portfolio",
+    meta: "Design · Development · 2026",
     description:
-      "The next useful thing is taking shape. This module will become its case study.",
-    status: "Coming soon",
+      "A living home for selected research, projects, and notes from the build process.",
+    href: "https://github.com/xinxing2027/xinxing2027.github.io",
+    status: "Live build",
   },
 ];
 
