@@ -83,6 +83,7 @@ export default function Home() {
 
         <nav className={menuOpen ? "nav nav-open" : "nav"} aria-label="Primary">
           <a href="#work" onClick={closeMenu}>Work</a>
+          <a href="#experience" onClick={closeMenu}>Experience</a>
           <a href="#education" onClick={closeMenu}>Education</a>
           <a href="#about" onClick={closeMenu}>About</a>
           <a href="#contact" onClick={closeMenu}>Contact</a>
@@ -183,13 +184,58 @@ export default function Home() {
         </section>
 
         <section
+          className="panel experience"
+          id="experience"
+          aria-labelledby="experience-title"
+        >
+          <div className="experience-heading">
+            <div>
+              <p className="eyebrow">Professional record / 002</p>
+              <h2 id="experience-title">Experience</h2>
+            </div>
+            <span>01 INTERNSHIP</span>
+          </div>
+
+          <article className="experience-entry">
+            <div className="experience-index">01 / INTERNSHIP</div>
+            <div className="experience-main">
+              <h3>Bank of China</h3>
+              <p className="experience-role">
+                Lobby Manager Intern &amp; Marketing Intern
+              </p>
+              <ul>
+                <li>
+                  Assisted customers with balance inquiries, deposits, and
+                  withdrawals while providing professional guidance and
+                  maintaining smooth daily lobby operations.
+                </li>
+                <li>
+                  Supported a county-wide credit-card promotion, coordinated
+                  discounts and giveaways, and secured cooperation agreements
+                  through phone, email, and on-site outreach.
+                </li>
+                <li>
+                  Identified customer needs, delivered personalized solutions,
+                  and worked with team members to resolve complaints; completed
+                  training in anti-money-laundering and fraud prevention.
+                </li>
+              </ul>
+            </div>
+            <div className="experience-meta">
+              <span>Dali, China</span>
+              <time>06/2023—07/2023</time>
+            </div>
+          </article>
+        </section>
+
+        <section
           className="panel education"
           id="education"
           aria-labelledby="education-title"
         >
           <div className="education-heading">
             <div>
-              <p className="eyebrow">Academic record / 002</p>
+              <p className="eyebrow">Academic record / 003</p>
               <h2 id="education-title">Education</h2>
             </div>
             <span>02 INSTITUTIONS</span>
@@ -242,7 +288,7 @@ export default function Home() {
         <section className="lower-grid">
           <div className="panel about" id="about">
             <div>
-              <p className="eyebrow">Profile / 003</p>
+              <p className="eyebrow">Profile / 004</p>
               <h2>About</h2>
             </div>
             <div className="about-copy">
@@ -258,7 +304,7 @@ export default function Home() {
           </div>
 
           <div className="panel contact" id="contact">
-            <p className="eyebrow dark">Open channel / 004</p>
+            <p className="eyebrow dark">Open channel / 005</p>
             <div className="contact-list">
               <a
                 className="contact-link"
