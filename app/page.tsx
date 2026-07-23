@@ -36,7 +36,8 @@ const work = [
     meta: "UBS Competition · AI Analysis · 04/2026",
     description:
       "Used Python and AI agents to screen industry news and financial data, structure company signals, and build a peer-valuation framework using PE, PEG, EV/EBITDA, and 2026E scenarios.",
-    status: "Competition",
+    href: "/ubs-ai-optical-module-competition-2026.pptx",
+    status: "Competition pitch",
   },
 ];
 
