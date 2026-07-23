@@ -123,14 +123,14 @@ export default function Home() {
             </p>
           </div>
 
-          <aside className="panel signal-panel" aria-label="Practice statement">
+          <aside className="panel signal-panel" aria-label="Personal field note">
             <div className="signal-top">
-              <p className="eyebrow dark">System note / 001</p>
-              <span className="coordinates">31.2304° N / 121.4737° E</span>
+              <p className="eyebrow dark">Field note / 001</p>
+              <span className="coordinates">40.7128° N / 74.0060° W</span>
             </div>
             <div className="signal-index" aria-hidden="true">01</div>
             <div className="signal-bottom">
-              <p>Building thoughtful systems at the edge of technology and culture.</p>
+              <p>Observing patterns across nature, mathematics, and markets.</p>
               <a href="#work" aria-label="Explore selected work">EXPLORE ↓</a>
             </div>
           </aside>
