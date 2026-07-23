@@ -362,7 +362,7 @@ export default function Home() {
               </figure>
               <figure className="photo-slot photo-slot-wide">
                 <img
-                  src="/photos/adventure.jpg"
+                  src="/photos/adventure.jpg?v=2"
                   alt="Xinxing rappelling beside a waterfall"
                   loading="lazy"
                 />
@@ -386,7 +386,7 @@ export default function Home() {
               </figure>
               <figure className="photo-slot">
                 <img
-                  src="/photos/friends.jpg"
+                  src="/photos/friends.jpg?v=2"
                   alt="Xinxing enjoying the sunshine beside purple flowers"
                   loading="lazy"
                 />
