@@ -363,10 +363,10 @@ export default function Home() {
               <figure className="photo-slot photo-slot-wide">
                 <img
                   src="/photos/adventure.jpg"
-                  alt="Xinxing smiling during a zipline adventure"
+                  alt="Xinxing rappelling beside a waterfall"
                   loading="lazy"
                 />
-                <figcaption><span>02</span><strong>Adventure</strong></figcaption>
+                <figcaption><span>02</span><strong>Into the wild</strong></figcaption>
               </figure>
               <figure className="photo-slot">
                 <img
@@ -387,10 +387,10 @@ export default function Home() {
               <figure className="photo-slot">
                 <img
                   src="/photos/friends.jpg"
-                  alt="Xinxing sharing a playful moment with a friend"
+                  alt="Xinxing enjoying the sunshine beside purple flowers"
                   loading="lazy"
                 />
-                <figcaption><span>05</span><strong>Together</strong></figcaption>
+                <figcaption><span>05</span><strong>Little sunshine</strong></figcaption>
               </figure>
               <figure className="photo-slot photo-slot-wide">
                 <img
