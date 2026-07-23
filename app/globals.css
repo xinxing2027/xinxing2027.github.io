@@ -675,27 +675,17 @@ a.project:hover {
 }
 
 .photo-slots {
-  min-height: 620px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 195px;
-  grid-auto-flow: dense;
-  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4px;
 }
 
 .photo-slot {
   position: relative;
+  aspect-ratio: 4 / 3;
   margin: 0;
   overflow: hidden;
   background: #20231f;
-}
-
-.photo-slot-portrait {
-  grid-row: span 2;
-}
-
-.photo-slot-wide {
-  grid-column: span 2;
 }
 
 .photo-slot img {
@@ -705,6 +695,23 @@ a.project:hover {
   object-fit: cover;
   filter: saturate(0.92) contrast(1.02);
   transition: filter 300ms ease, transform 500ms ease;
+}
+
+.photo-02 img,
+.photo-08 img {
+  object-position: center 42%;
+}
+
+.photo-01 img {
+  object-position: center 34%;
+}
+
+.photo-05 img {
+  object-position: center 46%;
+}
+
+.photo-06 img {
+  object-position: center 36%;
 }
 
 .photo-slot:hover img {
@@ -1075,17 +1082,7 @@ footer {
   }
 
   .photo-slots {
-    min-height: 720px;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 220px;
-  }
-
-  .photo-slot-wide {
-    grid-column: span 2;
-  }
-
-  .photo-slot-portrait {
-    grid-row: span 2;
+    grid-template-columns: 1fr;
   }
 
   .skills-line {

@@ -352,31 +352,7 @@ export default function Home() {
               </p>
             </div>
             <div className="photo-slots" aria-label="Personal photo gallery">
-              <figure className="photo-slot photo-slot-portrait">
-                <img
-                  src="/photos/world-cup.jpg"
-                  alt="Xinxing at a football event"
-                  loading="lazy"
-                />
-                <figcaption><span>01</span><strong>Game day</strong></figcaption>
-              </figure>
-              <figure className="photo-slot photo-slot-wide">
-                <img
-                  src="/photos/adventure.jpg?v=2"
-                  alt="Xinxing rappelling beside a waterfall"
-                  loading="lazy"
-                />
-                <figcaption><span>02</span><strong>Into the wild</strong></figcaption>
-              </figure>
-              <figure className="photo-slot">
-                <img
-                  src="/photos/spring.jpg"
-                  alt="Xinxing smiling beside spring blossoms"
-                  loading="lazy"
-                />
-                <figcaption><span>03</span><strong>Spring</strong></figcaption>
-              </figure>
-              <figure className="photo-slot photo-slot-wide">
+              <figure className="photo-slot photo-04">
                 <img
                   src="/photos/swimming.jpg"
                   alt="Xinxing competing in a swimming race"
@@ -384,23 +360,23 @@ export default function Home() {
                 />
                 <figcaption><span>04</span><strong>In motion</strong></figcaption>
               </figure>
-              <figure className="photo-slot">
+              <figure className="photo-slot photo-03">
                 <img
-                  src="/photos/friends.jpg?v=2"
-                  alt="Xinxing enjoying the sunshine beside purple flowers"
+                  src="/photos/spring.jpg"
+                  alt="Xinxing smiling beside spring blossoms"
                   loading="lazy"
                 />
-                <figcaption><span>05</span><strong>Little sunshine</strong></figcaption>
+                <figcaption><span>03</span><strong>Spring</strong></figcaption>
               </figure>
-              <figure className="photo-slot photo-slot-wide">
+              <figure className="photo-slot photo-02">
                 <img
-                  src="/photos/everyday-moment.jpg"
-                  alt="Xinxing visiting a mountain landscape"
+                  src="/photos/adventure.jpg?v=2"
+                  alt="Xinxing rappelling beside a waterfall"
                   loading="lazy"
                 />
-                <figcaption><span>06</span><strong>Out there</strong></figcaption>
+                <figcaption><span>02</span><strong>Into the wild</strong></figcaption>
               </figure>
-              <figure className="photo-slot photo-slot-wide">
+              <figure className="photo-slot photo-07">
                 <img
                   src="/photos/midtown-night.jpg"
                   alt="The Manhattan skyline illuminated at night"
@@ -408,15 +384,23 @@ export default function Home() {
                 />
                 <figcaption><span>07</span><strong>City lights</strong></figcaption>
               </figure>
-              <figure className="photo-slot photo-slot-portrait">
+              <figure className="photo-slot photo-01">
                 <img
-                  src="/photos/fearless.jpg"
-                  alt="Xinxing standing beside the Fearless Girl statue"
+                  src="/photos/world-cup.jpg"
+                  alt="Xinxing at a football event"
                   loading="lazy"
                 />
-                <figcaption><span>08</span><strong>Fearless</strong></figcaption>
+                <figcaption><span>01</span><strong>Game day</strong></figcaption>
               </figure>
-              <figure className="photo-slot photo-slot-wide">
+              <figure className="photo-slot photo-05">
+                <img
+                  src="/photos/friends.jpg?v=2"
+                  alt="Xinxing enjoying the sunshine beside purple flowers"
+                  loading="lazy"
+                />
+                <figcaption><span>05</span><strong>Little sunshine</strong></figcaption>
+              </figure>
+              <figure className="photo-slot photo-09">
                 <img
                   src="/photos/sunset-skyline.jpg"
                   alt="New York skyline beneath a colorful sunset"
@@ -424,7 +408,23 @@ export default function Home() {
                 />
                 <figcaption><span>09</span><strong>Afterglow</strong></figcaption>
               </figure>
-              <figure className="photo-slot photo-slot-wide">
+              <figure className="photo-slot photo-06">
+                <img
+                  src="/photos/everyday-moment.jpg"
+                  alt="Xinxing visiting a mountain landscape"
+                  loading="lazy"
+                />
+                <figcaption><span>06</span><strong>Out there</strong></figcaption>
+              </figure>
+              <figure className="photo-slot photo-08">
+                <img
+                  src="/photos/fearless.jpg"
+                  alt="Xinxing standing beside the Fearless Girl statue"
+                  loading="lazy"
+                />
+                <figcaption><span>08</span><strong>Fearless</strong></figcaption>
+              </figure>
+              <figure className="photo-slot photo-10">
                 <img
                   src="/photos/river-night.jpg"
                   alt="New York bridges and skyline viewed across the river at night"
