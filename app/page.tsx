@@ -285,24 +285,99 @@ export default function Home() {
           </article>
         </section>
 
-        <section className="lower-grid">
-          <div className="panel about" id="about">
+        <section className="panel about" id="about" aria-labelledby="about-title">
+          <div className="about-heading">
             <div>
               <p className="eyebrow">Profile / 004</p>
-              <h2>About</h2>
+              <h2 id="about-title">About me</h2>
             </div>
-            <div className="about-copy">
+            <p className="about-lead">
+              Curious by nature,
+              <br />
+              determined by choice.
+            </p>
+          </div>
+
+          <div className="about-story">
+            <p>
+              I&apos;m Xinxing, an optimistic and adventurous mathematics
+              student who enjoys discovering unfamiliar places, trying new
+              things, swimming, and documenting everyday life through social
+              media.
+            </p>
+            <p>
+              Once I set a goal, I give it my full attention. Challenges rarely
+              discourage me—I prefer to step back, understand the problem, and
+              find a practical way forward. Friends call me their “little
+              sunshine” because I bring warmth, energy, and a positive outlook
+              to the people around me.
+            </p>
+          </div>
+
+          <div className="about-details" aria-label="Activities and skills">
+            <article>
+              <span>01 / SERVICE</span>
+              <h3>Blue Sky Rescue Team</h3>
               <p>
-                I am Xinxing—an independent builder learning in public and
-                creating a body of work one deliberate project at a time.
+                Volunteer with the Civilian Emergency Response Force; supported
+                rescue communications and logistics during the 2023 Türkiye
+                earthquake response.
               </p>
+            </article>
+            <article>
+              <span>02 / LEADERSHIP</span>
+              <h3>Water Sports Association</h3>
               <p>
-                This site is the starting point: a growing archive for the
-                things I make, test, and discover.
+                Led the teaching department, organized daily swim training, and
+                helped deliver two university club recruitment events.
               </p>
+            </article>
+            <article>
+              <span>03 / COMMUNITY</span>
+              <h3>Class Monitor</h3>
+              <p>
+                Coordinated student activities and served as a communication
+                bridge between classmates, teachers, and the university.
+              </p>
+            </article>
+          </div>
+
+          <div className="photo-gallery" aria-labelledby="gallery-title">
+            <div className="gallery-intro">
+              <p className="eyebrow">Personal archive</p>
+              <h3 id="gallery-title">Life, outside the numbers.</h3>
+              <p>
+                A space for travel, swimming, volunteering, and the moments I
+                choose to remember.
+              </p>
+            </div>
+            <div className="photo-slots" aria-label="Photo gallery coming soon">
+              <div className="photo-slot photo-slot-tall">
+                <span>01</span>
+                <strong>Your favorite photo</strong>
+              </div>
+              <div className="photo-slot">
+                <span>02</span>
+                <strong>Travel &amp; discovery</strong>
+              </div>
+              <div className="photo-slot">
+                <span>03</span>
+                <strong>Swimming &amp; life</strong>
+              </div>
             </div>
           </div>
 
+          <div className="skills-line">
+            <span>TOOLS</span>
+            <p>Python · MATLAB · R · Stata · Java · MS Office</p>
+            <span>LANGUAGES</span>
+            <p>Mandarin Chinese · English</p>
+            <span>AWARD</span>
+            <p>2× Silver + 1× Bronze · XJTLU Swimming Competition, 2023</p>
+          </div>
+        </section>
+
+        <section className="lower-grid lower-grid-contact">
           <div className="panel contact" id="contact">
             <p className="eyebrow dark">Open channel / 005</p>
             <div className="contact-list">
