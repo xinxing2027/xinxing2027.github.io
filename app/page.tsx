@@ -351,19 +351,55 @@ export default function Home() {
                 choose to remember.
               </p>
             </div>
-            <div className="photo-slots" aria-label="Photo gallery coming soon">
-              <div className="photo-slot photo-slot-tall">
-                <span>01</span>
-                <strong>Your favorite photo</strong>
-              </div>
-              <div className="photo-slot">
-                <span>02</span>
-                <strong>Travel &amp; discovery</strong>
-              </div>
-              <div className="photo-slot">
-                <span>03</span>
-                <strong>Swimming &amp; life</strong>
-              </div>
+            <div className="photo-slots" aria-label="Personal photo gallery">
+              <figure className="photo-slot photo-slot-portrait">
+                <img
+                  src="/photos/world-cup.jpg"
+                  alt="Xinxing at a football event"
+                  loading="lazy"
+                />
+                <figcaption><span>01</span><strong>Game day</strong></figcaption>
+              </figure>
+              <figure className="photo-slot photo-slot-wide">
+                <img
+                  src="/photos/adventure.jpg"
+                  alt="Xinxing smiling during a zipline adventure"
+                  loading="lazy"
+                />
+                <figcaption><span>02</span><strong>Adventure</strong></figcaption>
+              </figure>
+              <figure className="photo-slot">
+                <img
+                  src="/photos/spring.jpg"
+                  alt="Xinxing smiling beside spring blossoms"
+                  loading="lazy"
+                />
+                <figcaption><span>03</span><strong>Spring</strong></figcaption>
+              </figure>
+              <figure className="photo-slot photo-slot-wide">
+                <img
+                  src="/photos/swimming.jpg"
+                  alt="Xinxing competing in a swimming race"
+                  loading="lazy"
+                />
+                <figcaption><span>04</span><strong>In motion</strong></figcaption>
+              </figure>
+              <figure className="photo-slot">
+                <img
+                  src="/photos/friends.jpg"
+                  alt="Xinxing sharing a playful moment with a friend"
+                  loading="lazy"
+                />
+                <figcaption><span>05</span><strong>Together</strong></figcaption>
+              </figure>
+              <figure className="photo-slot photo-slot-wide">
+                <img
+                  src="/photos/everyday-moment.jpg"
+                  alt="Xinxing visiting a mountain landscape"
+                  loading="lazy"
+                />
+                <figcaption><span>06</span><strong>Out there</strong></figcaption>
+              </figure>
             </div>
           </div>
 

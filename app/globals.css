@@ -675,34 +675,56 @@ a.project:hover {
 }
 
 .photo-slots {
-  min-height: 380px;
+  min-height: 620px;
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 195px;
   gap: 10px;
 }
 
 .photo-slot {
   position: relative;
-  padding: 18px;
+  margin: 0;
+  overflow: hidden;
+  background: #20231f;
+}
+
+.photo-slot-portrait {
+  grid-row: span 2;
+}
+
+.photo-slot-wide {
+  grid-column: span 2;
+}
+
+.photo-slot img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  filter: saturate(0.92) contrast(1.02);
+  transition: filter 300ms ease, transform 500ms ease;
+}
+
+.photo-slot:hover img {
+  filter: saturate(1.05) contrast(1.02);
+  transform: scale(1.025);
+}
+
+.photo-slot figcaption {
+  position: absolute;
+  inset: auto 0 0;
+  padding: 30px 16px 14px;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
   gap: 16px;
-  overflow: hidden;
-  border: 1px dashed #4c5049;
-  background:
-    linear-gradient(135deg, transparent 49.7%, #353932 50%, transparent 50.3%),
-    #20231f;
+  background: linear-gradient(transparent, rgba(8, 9, 8, 0.75));
 }
 
-.photo-slot-tall {
-  grid-row: 1 / 3;
-}
-
-.photo-slot strong {
+.photo-slot figcaption strong {
   max-width: 150px;
-  color: #7f857b;
+  color: var(--paper);
   font: 10px var(--font-geist-mono), monospace;
   letter-spacing: 0.08em;
   line-height: 1.4;
@@ -1052,7 +1074,17 @@ footer {
   }
 
   .photo-slots {
-    min-height: 480px;
+    min-height: 720px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 220px;
+  }
+
+  .photo-slot-wide {
+    grid-column: span 2;
+  }
+
+  .photo-slot-portrait {
+    grid-row: span 2;
   }
 
   .skills-line {
