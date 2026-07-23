@@ -110,7 +110,7 @@ export default function Home() {
           <div className="panel hero-copy">
             <span className="crosshair" aria-hidden="true">＋</span>
             <div>
-              <p className="eyebrow">Independent practice / Digital experiments</p>
+              <p className="eyebrow">Personal portfolio / Résumé</p>
               <h1 id="hero-title">Xinxing Li</h1>
               <p className="role">
                 Observer &amp; Interpreter
@@ -464,6 +464,16 @@ export default function Home() {
               <a className="contact-link" href="tel:+8618887260206">
                 <span className="contact-kind">CN</span>
                 <span className="contact-value">+86 188 8726 0206</span>
+                <span className="contact-arrow" aria-hidden="true">↗</span>
+              </a>
+              <a
+                className="contact-link"
+                href="https://www.linkedin.com/in/xinxing-li-4874a0303"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="contact-kind">Career</span>
+                <span className="contact-value">LinkedIn</span>
                 <span className="contact-arrow" aria-hidden="true">↗</span>
               </a>
               <a
