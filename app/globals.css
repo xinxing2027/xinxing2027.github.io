@@ -275,7 +275,7 @@ h1 {
   min-height: 330px;
   margin-top: 18px;
   display: grid;
-  grid-template-columns: 0.72fr repeat(3, 1fr);
+  grid-template-columns: 0.72fr repeat(4, 1fr);
 }
 
 .work-heading,
@@ -580,7 +580,14 @@ footer {
   }
 
   .work-grid {
-    grid-template-columns: 0.8fr 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .work-heading {
+    min-height: 210px;
+    grid-column: 1 / -1;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
   }
 
   .education {
@@ -598,11 +605,7 @@ footer {
     text-align: left;
   }
 
-  .project:last-child {
-    display: none;
-  }
-
-  .project:nth-child(3) {
+  .project:nth-child(odd) {
     border-right: 0;
   }
 }
@@ -700,7 +703,7 @@ footer {
     display: flex;
   }
 
-  .project:nth-child(3) {
+  .project:nth-child(odd) {
     border-right: 0;
   }
 

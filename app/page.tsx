@@ -30,6 +30,14 @@ const work = [
     href: "https://github.com/xinxing2027/xinxing2027.github.io",
     status: "Live build",
   },
+  {
+    number: "04",
+    title: "AI Optical Module Cycle",
+    meta: "UBS Competition · AI Analysis · 04/2026",
+    description:
+      "Used Python and AI agents to screen industry news and financial data, structure company signals, and build a peer-valuation framework using PE, PEG, EV/EBITDA, and 2026E scenarios.",
+    status: "Competition",
+  },
 ];
 
 export default function Home() {
@@ -124,7 +132,7 @@ export default function Home() {
               <p className="eyebrow">Selected output</p>
               <h2 id="work-title">Work</h2>
             </div>
-            <span>2026 / 03 MODULES</span>
+            <span>2026 / 04 MODULES</span>
           </div>
 
           {work.map((project) => {
