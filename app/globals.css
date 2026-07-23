@@ -251,6 +251,122 @@ h1 {
   letter-spacing: -0.16em;
 }
 
+.pixel-companion {
+  position: absolute;
+  left: 28px;
+  bottom: 112px;
+  width: 142px;
+  height: 142px;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(9, 11, 10, 0.55);
+  background:
+    linear-gradient(rgba(9, 11, 10, 0.09) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(9, 11, 10, 0.09) 1px, transparent 1px);
+  background-size: 14px 14px;
+  transition: transform 220ms ease;
+}
+
+.pixel-companion::before,
+.pixel-companion::after {
+  position: absolute;
+  z-index: 2;
+  font: 13px var(--font-geist-mono), monospace;
+}
+
+.pixel-companion::before {
+  content: "＋";
+  top: 5px;
+  left: 7px;
+}
+
+.pixel-companion::after {
+  content: "●";
+  top: 8px;
+  right: 9px;
+  font-size: 6px;
+  animation: companion-signal 1.5s steps(2, end) infinite;
+}
+
+.pixel-companion img {
+  position: relative;
+  z-index: 1;
+  width: 100px;
+  height: 92px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  filter: saturate(1.12) contrast(1.06);
+  animation: companion-bounce 2.4s ease-in-out infinite;
+}
+
+.companion-ring {
+  position: absolute;
+  width: 92px;
+  height: 28px;
+  bottom: 22px;
+  border: 1px solid rgba(9, 11, 10, 0.42);
+  border-radius: 50%;
+  animation: companion-shadow 2.4s ease-in-out infinite;
+}
+
+.pixel-companion figcaption {
+  position: absolute;
+  left: 7px;
+  right: 7px;
+  bottom: -25px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(9, 11, 10, 0.72);
+  font: 7px var(--font-geist-mono), monospace;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.pixel-companion figcaption strong {
+  color: var(--ink);
+  font-weight: 750;
+}
+
+.pixel-companion:hover {
+  transform: rotate(-2deg) scale(1.035);
+}
+
+.pixel-companion:hover img {
+  animation-duration: 0.85s;
+}
+
+@keyframes companion-bounce {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-1deg);
+  }
+  45% {
+    transform: translateY(-11px) rotate(2deg);
+  }
+  60% {
+    transform: translateY(-8px) rotate(-2deg);
+  }
+}
+
+@keyframes companion-shadow {
+  0%,
+  100% {
+    transform: scaleX(1);
+    opacity: 0.42;
+  }
+  45% {
+    transform: scaleX(0.68);
+    opacity: 0.2;
+  }
+}
+
+@keyframes companion-signal {
+  50% {
+    opacity: 0.25;
+  }
+}
+
 .signal-bottom {
   align-items: flex-end;
 }
@@ -569,6 +685,18 @@ footer {
 
   .signal-index {
     font-size: 160px;
+  }
+
+  .pixel-companion {
+    left: 24px;
+    bottom: 104px;
+    width: 126px;
+    height: 126px;
+  }
+
+  .pixel-companion img {
+    width: 88px;
+    height: 82px;
   }
 
   .work-grid {
