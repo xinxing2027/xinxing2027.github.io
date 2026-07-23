@@ -63,6 +63,7 @@ export default function Home() {
 
         <nav className={menuOpen ? "nav nav-open" : "nav"} aria-label="Primary">
           <a href="#work" onClick={closeMenu}>Work</a>
+          <a href="#education" onClick={closeMenu}>Education</a>
           <a href="#about" onClick={closeMenu}>About</a>
           <a href="#contact" onClick={closeMenu}>Contact</a>
         </nav>
@@ -161,10 +162,67 @@ export default function Home() {
           })}
         </section>
 
+        <section
+          className="panel education"
+          id="education"
+          aria-labelledby="education-title"
+        >
+          <div className="education-heading">
+            <div>
+              <p className="eyebrow">Academic record / 002</p>
+              <h2 id="education-title">Education</h2>
+            </div>
+            <span>02 INSTITUTIONS</span>
+          </div>
+
+          <div className="education-list">
+            <article className="education-entry">
+              <div className="education-index">01 / GRADUATE</div>
+              <div className="education-main">
+                <h3>
+                  Courant Institute of Mathematical Sciences
+                  <span>New York University</span>
+                </h3>
+                <p className="education-degree">M.S. in Mathematics</p>
+                <p className="education-courses">
+                  Numerical Analysis · Partial Differential Equations ·
+                  Scientific Computing · Risk Management · Probability Theory ·
+                  Stochastic Processes and Pricing
+                </p>
+              </div>
+              <div className="education-meta">
+                <span>New York, USA</span>
+                <time>09/2025—05/2027</time>
+              </div>
+            </article>
+
+            <article className="education-entry">
+              <div className="education-index">02 / UNDERGRADUATE</div>
+              <div className="education-main">
+                <h3>Xi&apos;an Jiaotong-Liverpool University</h3>
+                <p className="education-degree">
+                  B.S. in Financial Mathematics
+                </p>
+                <p className="education-courses">
+                  Methods of Applied Mathematics · Foundations of Financial
+                  Computing · Probability and Statistics · Econometrics I ·
+                  Microeconomics · Macroeconomics · Risk Management · Financial
+                  Accounting · Financial Management · Programming for Financial
+                  Mathematics
+                </p>
+              </div>
+              <div className="education-meta">
+                <span>Suzhou, China</span>
+                <time>09/2021—06/2025</time>
+              </div>
+            </article>
+          </div>
+        </section>
+
         <section className="lower-grid">
           <div className="panel about" id="about">
             <div>
-              <p className="eyebrow">Profile / 002</p>
+              <p className="eyebrow">Profile / 003</p>
               <h2>About</h2>
             </div>
             <div className="about-copy">
@@ -180,7 +238,7 @@ export default function Home() {
           </div>
 
           <div className="panel contact" id="contact">
-            <p className="eyebrow dark">Open channel / 003</p>
+            <p className="eyebrow dark">Open channel / 004</p>
             <div className="contact-list">
               <a
                 className="contact-link"
