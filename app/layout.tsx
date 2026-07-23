@@ -3,14 +3,14 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://xinxing2027.github.io"),
-  title: "Xinxing Li — Independent Builder & Creative Technologist",
+  title: "Xinxing Li — Observer & Interpreter of Nature's Patterns",
   description:
     "The personal portfolio of Xinxing Li: selected work, digital experiments, and ideas in progress.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Xinxing Li — Independent Builder & Creative Technologist",
+    title: "Xinxing Li — Observer & Interpreter of Nature's Patterns",
     description:
       "Selected work, digital experiments, and ideas in progress.",
     url: "/",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Xinxing Li — Independent Builder & Creative Technologist",
+    title: "Xinxing Li — Observer & Interpreter of Nature's Patterns",
     description: "Selected work, digital experiments, and ideas in progress.",
     images: ["/og.jpg"],
   },

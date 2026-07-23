@@ -113,14 +113,13 @@ export default function Home() {
               <p className="eyebrow">Independent practice / Digital experiments</p>
               <h1 id="hero-title">Xinxing Li</h1>
               <p className="role">
-                Independent Builder
+                Observer &amp; Interpreter
                 <br />
-                <span>&amp; Creative Technologist</span>
+                <span>of Nature&apos;s Patterns</span>
               </p>
             </div>
             <p className="intro">
-              I turn early ideas into clear, useful digital experiences—working
-              across product thinking, visual systems, and code.
+              Do your utmost, and leave the rest to fate.
             </p>
           </div>
 
