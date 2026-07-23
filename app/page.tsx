@@ -39,6 +39,15 @@ const work = [
     href: "/ubs-ai-optical-module-competition-2026.pptx",
     status: "Competition pitch",
   },
+  {
+    number: "05",
+    title: "Black–Scholes & Heat Kernel",
+    meta: "Undergraduate Thesis · Financial Mathematics · 2025",
+    description:
+      "Derived diffusion equations with Fourier transforms and Green’s functions, then connected the heat kernel to Black–Scholes pricing and the Fokker–Planck equation.",
+    href: "/black-scholes-heat-kernel-thesis-2025.pdf",
+    status: "BSc thesis",
+  },
 ];
 
 export default function Home() {
@@ -133,7 +142,7 @@ export default function Home() {
               <p className="eyebrow">Selected output</p>
               <h2 id="work-title">Work</h2>
             </div>
-            <span>2026 / 04 MODULES</span>
+            <span>05 PROJECTS / RESEARCH</span>
           </div>
 
           {work.map((project) => {
