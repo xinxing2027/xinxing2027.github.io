@@ -181,15 +181,34 @@ export default function Home() {
 
           <div className="panel contact" id="contact">
             <p className="eyebrow dark">Open channel / 003</p>
-            <div>
-              <p className="contact-label">Find me on</p>
+            <div className="contact-list">
+              <a
+                className="contact-link"
+                href="mailto:xinxing2027@outlook.com"
+              >
+                <span className="contact-kind">Email</span>
+                <span className="contact-value">xinxing2027@outlook.com</span>
+                <span className="contact-arrow" aria-hidden="true">↗</span>
+              </a>
+              <a className="contact-link" href="tel:+17019785527">
+                <span className="contact-kind">US</span>
+                <span className="contact-value">+1 701 978 5527</span>
+                <span className="contact-arrow" aria-hidden="true">↗</span>
+              </a>
+              <a className="contact-link" href="tel:+8618887260206">
+                <span className="contact-kind">CN</span>
+                <span className="contact-value">+86 188 8726 0206</span>
+                <span className="contact-arrow" aria-hidden="true">↗</span>
+              </a>
               <a
                 className="contact-link"
                 href="https://github.com/xinxing2027"
                 target="_blank"
                 rel="noreferrer"
               >
-                GitHub <span aria-hidden="true">↗</span>
+                <span className="contact-kind">Code</span>
+                <span className="contact-value">GitHub</span>
+                <span className="contact-arrow" aria-hidden="true">↗</span>
               </a>
             </div>
           </div>
