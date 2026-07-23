@@ -108,19 +108,6 @@ export default function Home() {
               <span className="coordinates">31.2304° N / 121.4737° E</span>
             </div>
             <div className="signal-index" aria-hidden="true">01</div>
-            <figure className="pixel-companion">
-              <span className="companion-ring" aria-hidden="true" />
-              <img
-                src="/pikachu.png"
-                width="100"
-                height="92"
-                alt="Animated pixel-art Pikachu"
-              />
-              <figcaption>
-                <span>Companion / No.025</span>
-                <strong>PIKACHU</strong>
-              </figcaption>
-            </figure>
             <div className="signal-bottom">
               <p>Building thoughtful systems at the edge of technology and culture.</p>
               <a href="#work" aria-label="Explore selected work">EXPLORE ↓</a>
